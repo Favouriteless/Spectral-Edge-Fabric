@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "spectraledge",
+  "version": "${version}",
+
+  "name": "Spectral Edge",
+  "description": "Adds the spectral edge enchantment, an alternative to sharpness which uses a % damage increase.",
+  "authors": [
+    "Favouriteless"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Favouriteless/Spectral-Edge-Fabric"
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.favouriteless.spectraledge.SpectralEdge"
+    ]
+  },
+  "mixins": [
+    "spectraledge.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
