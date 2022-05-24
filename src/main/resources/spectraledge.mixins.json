@@ -2,10 +2,10 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.favouriteless.spectraledge.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_17",
   "mixins": [
     "ItemStackMixin",
-    "LivingEntityMixin",
+    "LivingEntityMixin"
   ],
   "client": [
   ],
