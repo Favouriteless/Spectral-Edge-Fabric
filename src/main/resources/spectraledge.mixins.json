@@ -4,9 +4,10 @@
   "package": "com.favouriteless.spectraledge.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ItemStackMixin",
+    "LivingEntityMixin",
   ],
   "client": [
-
   ],
   "injectors": {
     "defaultRequire": 1

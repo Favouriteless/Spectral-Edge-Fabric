@@ -11,7 +11,7 @@ public class SpectralEdge implements ModInitializer {
 
 	public static final String MOD_ID = "spectraledge";
 
-	private static final Enchantment SPECTRAL_EDGE = Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "spectral_edge"), new SpectralEdgeEnchantment());;
+	public static final Enchantment SPECTRAL_EDGE = Registry.register(Registry.ENCHANTMENT, new Identifier(MOD_ID, "spectral_edge"), new SpectralEdgeEnchantment());;
 
 	@Override
 	public void onInitialize() {

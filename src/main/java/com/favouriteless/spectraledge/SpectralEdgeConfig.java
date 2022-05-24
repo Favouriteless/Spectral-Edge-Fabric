@@ -9,8 +9,8 @@ import java.util.List;
 @Config(name = "spectraledge-common")
 public class SpectralEdgeConfig implements ConfigData {
 
-    public int levelCost;
-    public int maxLevel;
-    public float damagePercent;
+    public int levelCost = 11;
+    public int maxLevel = 5;
+    public float damagePercent = 20;
 
 }
