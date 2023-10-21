@@ -9,7 +9,7 @@
     "Favouriteless"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/spectral-edge/",
     "sources": "https://github.com/Favouriteless/Spectral-Edge-Fabric"
   },
 
@@ -27,12 +27,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": ">=0.14.23",
     "fabric": "*",
-    "minecraft": "1.18.2",
+    "minecraft": "1.19.2",
     "cloth-config2": "*"
-  },
-  "suggests": {
-
   }
 }
